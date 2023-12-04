@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    transition: 0.5s;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(0, 0, 10);
+}
+
+
+#container{
+    padding: 50px 400px;
+}
+
+#container form{
+    padding: 40px 30px;
+    background: white;
+}
+
+#container form input[type="text"]{
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: none;
+    box-shadow: -2px 2px 9px rgb(158, 158, 158);
+    margin-bottom: 10px;
+}
+
+#container form input[type="email"]{
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: none;
+    box-shadow: -2px 2px 9px rgb(158, 158, 158);
+    margin-bottom: 10px;
+}
+
+#container form input[type="password"]{
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: none;
+    box-shadow: -2px 2px 9px rgb(158, 158, 158);
+    margin-bottom: 10px;
+}
+
+#container form input[type="submit"]{
+    width: 20%;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: black;
+    outline: none;
+    background: rgb(0, 0, 10);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    box-shadow: -2px 2px 9px rgb(158, 158, 158);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#container form input[type="password"]::placeholder, #container form input[type="email"]::placeholder, #container form input[type="text"]::placeholder{
+    color: black;
+}
+
+a{
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+#notmatchpass{
+    background: rgb(62, 0, 0);
+    padding: 10px 9px;
+    color: white;
+}
